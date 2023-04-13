@@ -38,10 +38,6 @@ class Vampire
     end
 end
 
-dracula = Vampire.new("Vlad")
-puts dracula.thirsty
-puts dracula.drink
-
 
 #  Write a Dragon class
 #  it should have a dynamic name attribute (string)
@@ -49,6 +45,26 @@ puts dracula.drink
 #  it should have a dynamic color attribute (string)
 #  it should have a is_hungry attribute that is true by default
 #  it should have a eat method. If the dragon eats 4 times, it is no longer hungry
+
+class Dragon
+    attr_reader :name, :is_hungry
+
+    def initialize(name, rider, color)
+        @name = name
+        @rider = rider
+        @color = color
+        @is_hungry = true
+        @hunger_meter = 0
+    end
+
+    def eat
+        @hunger_meter += 1
+        if @hunger_meter >= 4
+            @is_hungry = false
+        end
+    end
+
+end
 
 
 #  Write a Hobbit class
