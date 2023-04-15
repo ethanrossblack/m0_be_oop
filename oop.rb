@@ -148,10 +148,15 @@ class Hobbit
         @is_adult = false
         @is_old = false
         @has_ring = false
+        if @name == "Frodo"
+            @has_ring = true
+        end
     end
 
     def has_ring?
-        @name == "Frodo"
+        if @name == 'Frodo'
+            @has_ring = true
+        end
     end
 
     def celebrate_birthday
@@ -164,5 +169,236 @@ class Hobbit
     end
 end
 
-hobbit1 = Hobbit.new("Frodo", "Jolly")
+hobbit1 = Hobbit.new("Ethan","Jolly")
+pp hobbit1
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+puts "","Age:      | " + hobbit1.age.to_s
+puts "Is Adult? | " + hobbit1.is_adult.to_s
+puts "Is Old?   | " + hobbit1.is_old.to_s
+hobbit1.celebrate_birthday
+puts "","Age:      | " + hobbit1.age.to_s
+puts "Is Adult? | " + hobbit1.is_adult.to_s
+puts "Is Old?   | " + hobbit1.is_old.to_s
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+puts "","Age:      | " + hobbit1.age.to_s
+puts "Is Adult? | " + hobbit1.is_adult.to_s
+puts "Is Old?   | " + hobbit1.is_old.to_s
+hobbit1.celebrate_birthday
+puts "","Age:      | " + hobbit1.age.to_s
+puts "Is Adult? | " + hobbit1.is_adult.to_s
+puts "Is Old?   | " + hobbit1.is_old.to_s,""
+pp hobbit1
+
+hobbit1 = Hobbit.new("Frodo","Brave")
+pp hobbit1
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+puts "","Age:      | " + hobbit1.age.to_s
+puts "Is Adult? | " + hobbit1.is_adult.to_s
+puts "Is Old?   | " + hobbit1.is_old.to_s
+hobbit1.celebrate_birthday
+puts "","Age:      | " + hobbit1.age.to_s
+puts "Is Adult? | " + hobbit1.is_adult.to_s
+puts "Is Old?   | " + hobbit1.is_old.to_s
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+hobbit1.celebrate_birthday
+puts "","Age:      | " + hobbit1.age.to_s
+puts "Is Adult? | " + hobbit1.is_adult.to_s
+puts "Is Old?   | " + hobbit1.is_old.to_s
+hobbit1.celebrate_birthday
+puts "","Age:      | " + hobbit1.age.to_s
+puts "Is Adult? | " + hobbit1.is_adult.to_s
+puts "Is Old?   | " + hobbit1.is_old.to_s,""
 pp hobbit1
